@@ -27,3 +27,7 @@ Ao bumpar versão, atualizar nos dois arquivos:
 - `extension/manifest.json` (`"version"`)
 
 O nome do instalador inclui a versão automaticamente via `OutputBaseFilename=WhatsGPU-Setup-v{#MyAppVersion}`.
+
+## Instaladores
+
+Sempre que o projeto gerar um instalador funcional (`.exe`, `.msi`, `.dmg`, `.AppImage`, etc.), salvar a última versão funcional na pasta `~Instaladores/` na raiz do projeto. Manter apenas a versão mais recente. Se o projeto não gera instalador, ignorar esta regra.
